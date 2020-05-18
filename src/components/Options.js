@@ -6,10 +6,10 @@ const Options = (props) => (
         <div className="widget-header">
             <h3 className="widget-header__title">Your Options</h3>
             <button
-                className="button--link"
+                className="button--link__alt"
                 onClick={props.handleDeleteOptions}
             >
-                Remove All
+                Reset
         </button>
         </div>
         {props.options.length === 0 && <p className="widget__message">Please add and option to get started!</p>}

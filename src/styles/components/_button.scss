@@ -32,6 +32,14 @@
     padding: 0;
 }
 
+.button--link__alt {
+    background: $purple;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: $s-size;
+}
+
 @media (min-width: $desktop-breakpoint) {
     .big-button{
         margin-bottom: $xl-size;
